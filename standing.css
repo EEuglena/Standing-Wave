@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans:wght@100&display=swap");
+
+body {
+	user-select: none;
+	background-color: black;
+}
+
+canvas {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 1px solid black;
+}
+
+div {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	color: white;
+	font-size: 60px;
+	font-family: "Noto Sans";
+	font-weight: 100;
+}
+
+.plus {
+	transform: translate(calc(-50% + 200px), -50%);
+}
+
+.minus {
+	transform: translate(calc(-50% - 200px), -50%);
+}
+
+.pointer {
+	transform: translate(calc(-50% - 125px), calc(-50% + 200px));
+}
+
+.line {
+	transform: translate(-50%, calc(-50% + 200px));
+}
+
+.pointers {
+	transform: translate(calc(-50% + 115px), calc(-50% + 200px));
+}
